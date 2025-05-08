@@ -1,0 +1,32 @@
+.pai{
+    display: grid;
+    grid-template-columns:repeat(2, 2fr);
+    background-color: white;
+}
+.eventos{
+  padding: 10px;
+  border: 1px solid black;
+  margin: 5px;
+  border-radius: 8px;
+}
+
+h1{
+   text-align: center;
+}
+ul{
+   list-style: none;
+}
+
+.container{
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
